@@ -4,6 +4,20 @@ selector {
 }
 */
 
+.menu__li {
+	display: inline;
+	font-size: 25px;
+	background-color: rgb(31, 224, 111);
+	padding: 10px;
+	margin: 10px;
+}
+
+.menu__li--active {
+	display: inline;
+	margin-right: 200px;
+}
+
+
 .descr {
 	font-size: 16px;
 }
@@ -13,4 +27,8 @@ selector {
 	font-family: sans-serif;
 	line-height: 1.5; /* Altura de la caja que contiene la letra */
 	font-weight: 1000; /* Grosor */
+	padding: 20px; /* top right bottom left*/
+	background-color: darkturquoise;
+	text-align: justify;
+	margin-top: 20px;
 }
