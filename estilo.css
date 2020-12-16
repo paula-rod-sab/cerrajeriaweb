@@ -4,6 +4,13 @@ selector {
 }
 */
 
-* {
-	color:red;
+.descr {
+	font-size: 16px;
+}
+
+.descr__p {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	line-height: 1.5; /* Altura de la caja que contiene la letra */
+	font-weight: 1000; /* Grosor */
 }
